@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Role Ordering</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+</head>
+<body>
+
+  <div id="container" class="container">
+   <div id="head-bar" class="col-sm-12">Purchase a Role</div>
+      <form>
+         <!-- <div id="product-display" class="twelve column"> -->
+            <div id="product" class="row">
+               <div id="product-list">
+                 <!-- <div id="product-list-item"  class="col-sm-6 col-md-3"> -->                  
+                    <!-- //<product-panels></product-panels> -->
+                 <!-- </div> -->
+               </div>
+
+                <div id="product-panels" class="col-xs-12">
+                   <ul id="panel" class="nav nav-tabs" role="tablist">
+                      <li id="des" role="presentation" class="active"><a href aria-controls="des" role="tab" data-toggle="tab">Description</a></li>
+                      <li id="spec" role="presentation"><a href aria-controls="spc" role="tab" data-toggle="tab">Specifications</a></li>
+                      <!-- <li ng-class="{ active: panel.isSelected(3) }"><a href ng-click="panel.selectTab(3)">Message</a></li> -->
+                   </ul>
+                   <div id="dscrptn" class="">
+                      <h4>Description</h4>
+                      <blockquote></blockquote>
+                   </div>
+                   <div id="" class="">
+                      <h4>Specifications</h4>
+                      <blockquote>Blah</blockquote>
+                   </div>
+
+                  <div id="msgForm" name="messageForm" role="form">
+                    <blockquote>
+                       <b>Message:</b>
+                       <p></p>
+                       <cite>from: </cite>
+                    </blockquote>
+                    <div class="form-group">
+                       <label for="">Your name:</label>
+                       <input type="text" name="" id="" required>
+                    </div>
+                    <div class="form-group">
+                       <label for="">Message:</label>
+                       <textarea placeholder="Your message here." rows="4" cols="50" name="" id="" required></textarea>
+                    </div>
+                    <div>
+                       <button type="submit" id="submit" value="Submit">Submit</button>
+                       <button type="reset" value="Clear" id="clear">Clear</button>
+                    </div>
+                 </div>
+
+                </div>
+                
+               
+            </div>
+         <!-- </div> -->
+         <!-- <message id="message" class=""></message> -->
+      </form>
+   </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+  </script>
+<!-- script section -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="data.js"></script>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
