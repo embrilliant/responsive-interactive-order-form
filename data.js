@@ -7,7 +7,7 @@ var roles =
 		canPurchase: true,
 		soldOut: false,
 		select: 1,
-		image: "/Users/apple/Desktop/test/angular--/images/product-images/programmer.png",
+		image: "/Users/apple/Desktop/test/role-order-form/images/product-images/programmer.png",
 		messages: [
 						{
 							"message": "Awesome!",
@@ -22,7 +22,7 @@ var roles =
 		canPurchase: true,
 		soldOut: false,
 		select: 2,
-		image: "/Users/apple/Desktop/test/angular--/images/product-images/marketer.png",
+		image: "/Users/apple/Desktop/test/role-order-form/images/product-images/marketer.png",
 		messages: [
 				]
 	},
@@ -33,7 +33,7 @@ var roles =
 		canPurchase: true,
 		soldOut: false,
 		select: 3,
-		image: "/Users/apple/Desktop/test/angular--/images/product-images/b-p.png",
+		image: "/Users/apple/Desktop/test/role-order-form/images/product-images/b-p.png",
 		message: [
 				]
 	},
@@ -44,7 +44,7 @@ var roles =
 		canPurchase: true,
 		soldOut: false,
 		select: 4,
-		image: "/Users/apple/Desktop/test/angular--/images/product-images/artist.png",
+		image: "/Users/apple/Desktop/test/role-order-form/images/product-images/artist.png",
 		messages: [
 				]
 	}

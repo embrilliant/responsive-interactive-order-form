@@ -8,13 +8,14 @@ $(function() {
 		borderEl.id = "selected-border";
 		$borderEl = $(borderEl);
 
-	var testTop = $("#product-list-item1").position().top;
-		testLeft = $("#product-list-item1").position().left;
-		testWidth = $("#product-list-item1").outerWidth();
-		testHeight = $("#product-list-item1").outerHeight();
+	var boderTop = $("#product-list-item1").position().top;
+		borderLeft = $("#product-list-item1").position().left;
+		
 
 	$("#product-list").append($borderEl);
-	$borderEl.css({top: testTop, left: testLeft, width: testWidth, height: testHeight });
+	function() {
+		$borderEl.css({top: borderTop, left: borderLeft, width:  });
+	}
 
 		// console.log($borderEl);
 
