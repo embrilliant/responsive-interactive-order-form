@@ -2,7 +2,7 @@ var roles =
 [
 	{
 		type: "Programmer",
-		price: 666666000000,
+		price: 666666000000.00,
 		description: "The most powerful type.",
 		canPurchase: true,
 		soldOut: false,
@@ -28,7 +28,7 @@ var roles =
 	},
 	{
 		type: "Business Person",
-		price: 77777000,
+		price: 77777000.00,
 		description: "The one who is good at administrative tasks",
 		canPurchase: true,
 		soldOut: false,
@@ -39,7 +39,7 @@ var roles =
 	},
 	{
 		type: "Artist",
-		price: 88888000,
+		price: 88888000.00,
 		description: "The one who does whatever.",
 		canPurchase: true,
 		soldOut: false,
